@@ -1,6 +1,3 @@
-public void setup() {
-  size(800, 800);
-}
   float redChange = 3;
   float greenChange = 19;
   float blueChange = 24;
@@ -13,12 +10,16 @@ public void setup() {
   boolean colorDown = false;
   float xValue = 0;
   float yValue = 0;
+
+public void setup() {
+  size(800, 800);
+}
+
 public void draw() {
   background(192);
   System.out.print(redChange + "   ");
   System.out.print(greenChange + "    ");
   System.out.println(blueChange);
-
   for (int i = 0; i < 25; i ++){
     for(yRows = 800; yRows >= 0; yRows-=40){
       for (scale1 = 1; scale1 <= 20; scale1++){
