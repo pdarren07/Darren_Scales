@@ -17,9 +17,6 @@ public void setup() {
 
 public void draw() {
   background(192);
-  System.out.print(redChange + "   ");
-  System.out.print(greenChange + "    ");
-  System.out.println(blueChange);
   for (int i = 0; i < 25; i ++){
     for(yRows = 800; yRows >= 0; yRows-=40){
       for (scale1 = 1; scale1 <= 20; scale1++){
